@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -15,12 +14,6 @@ type Node struct {
 	Prev  *Node
 	Next  *Node
 	Child *Node
-}
-
-func main() {
-	arr := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
-	res := removeDuplicates(arr)
-	fmt.Println(arr[:res])
 }
 
 // 136. 只出现一次的数字(https://leetcode.cn/problems/single-number/)：
